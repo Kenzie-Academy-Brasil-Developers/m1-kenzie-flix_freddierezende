@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+h3{
+    color: whitesmoke;
+}
+
+div{
+    color: gray;
+    font-size: 12px
+}
+
+#botão{
+    color: white;
+    background-color: black;   
+    border-color: white
+}
+
