@@ -2,18 +2,68 @@ body{
     background-color: black;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
-h3{
+#logo-kenzieflix{
+    margin: 5px 700px;
+}
+.Titúlo{
     color: whitesmoke;
+    margin: 5px 700px;
+    font-size: 22px;
 }
-
-div{
+.box{
+    min-width: 1000px;
     color: gray;
-    font-size: 12px
+    
+}
+#usuário-freddie{
+    margin: 10px 100px ;
+    height: 500px;
+    width: 500px;
+    list-style: none;
+    border-radius: 10%;
+}
+.text-freddie{
+    margin: 10px 325px ;
+    font-size: 18px;
 }
 
+#usuário-vitória{
+    margin: 10px 100px ;
+    height: 500px;
+    width: 500px;
+    list-style: none;
+    border-radius: 10%;
+}
+.text-vitória{
+    margin: 10px 325px ;
+    font-size: 18px;
+}
+#usuário-yuri{
+    margin: 10px 100px ;
+    height: 500px;
+    width: 500px;
+    list-style: none;
+    border-radius: 10%;
+}
+.text-yuri{
+    margin: 10px 325px ;
+    font-size: 18px;
+}
+#card-novo{
+    margin: 10px 100px ;
+    height: 500px;
+    width: 500px;
+    list-style: none;
+}
+.novo-card{
+    margin: 10px 300px ;
+    font-size: 18px;
+    border-radius: 10%;
+}
 #botão{
     color: white;
     background-color: black;   
-    border-color: white
+    border-color: white;
+    margin: 5px 750px;
 }
 
