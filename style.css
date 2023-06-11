@@ -3,67 +3,105 @@ body{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 #logo-kenzieflix{
-    margin: 5px 700px;
+    margin: 25px 765px;
 }
 .Titúlo{
     color: whitesmoke;
-    margin: 5px 700px;
-    font-size: 22px;
+    margin: 50px 750px;
+    font-size: 25px;
 }
-.box{
-    min-width: 1000px;
+.container{
+    display: flex;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 100px 400px ;
+}
+.perfil-freddie{
+    min-width: 50px;
     color: gray;
     
 }
-#usuário-freddie{
-    margin: 10px 100px ;
-    height: 500px;
-    width: 500px;
+#ícone-freddie{
+    /* margin: 100px 150px ; */
+    height: 200px;
+    width: 200px;
     list-style: none;
-    border-radius: 10%;
+    border-radius: 5%;
+   border: 5px solid white
 }
 .text-freddie{
-    margin: 10px 325px ;
+    margin: 10px 70px ;
     font-size: 18px;
 }
-
-#usuário-vitória{
-    margin: 10px 100px ;
-    height: 500px;
-    width: 500px;
+.text-freddie:hover{
+    color: white;
+}
+.perfil-vitória{
+    min-width: 50px;
+    color: gray;
+}
+#ícone-vitória{
+    /* margin: 100px 100px ; */
+    height: 200px;
+    width: 200px;
     list-style: none;
     border-radius: 10%;
+    border: 5px solid white
 }
 .text-vitória{
-    margin: 10px 325px ;
+    margin: 10px 70px ;
     font-size: 18px;
 }
-#usuário-yuri{
-    margin: 10px 100px ;
-    height: 500px;
-    width: 500px;
+.text-vitória:hover{
+    color: white;
+}
+.perfil-yuri{
+    min-width: 50px;
+    color: gray;
+}
+#ícone-yuri{
+    /* margin: 100px 100px ; */
+    height: 200px;
+    width: 200px;
     list-style: none;
-    border-radius: 10%;
+    border-radius: 5%;
+   border: 5px solid white
 }
 .text-yuri{
-    margin: 10px 325px ;
+    margin: 10px 80px ;
     font-size: 18px;
 }
-#card-novo{
-    margin: 10px 100px ;
-    height: 500px;
-    width: 500px;
+.text-yuri:hover{
+    color: white;
+}
+.card-novo{
+    min-width: 50px;
+    color: gray;
+}
+#ícone-novo{
+    /* margin: 100px 100px ; */
+    height: 200px;
+    width: 200px;
     list-style: none;
+    border-radius: 5%;
+    border: 5px solid white
 }
-.novo-card{
-    margin: 10px 300px ;
+.textn-card{
+    margin: 10px 40px ;
     font-size: 18px;
-    border-radius: 10%;
+}
+.textn-card:hover{
+    color: white;
 }
 #botão{
     color: white;
     background-color: black;   
     border-color: white;
-    margin: 5px 750px;
+    margin: 100px 820px;
 }
+#botão:hover{
+    background-color: white;
+    color: black;
+    }
 
