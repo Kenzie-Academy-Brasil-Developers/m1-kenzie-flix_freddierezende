@@ -28,7 +28,9 @@ body{
     width: 200px;
     list-style: none;
     border-radius: 5%;
-   border: 5px solid white
+}
+#ícone-freddie:hover{
+    border: 5px solid white
 }
 .text-freddie{
     margin: 10px 70px ;
@@ -47,6 +49,8 @@ body{
     width: 200px;
     list-style: none;
     border-radius: 10%;
+}
+#ícone-vitória:hover{
     border: 5px solid white
 }
 .text-vitória{
@@ -66,7 +70,9 @@ body{
     width: 200px;
     list-style: none;
     border-radius: 5%;
-   border: 5px solid white
+}
+#ícone-yuri:hover{
+    border: 5px solid white
 }
 .text-yuri{
     margin: 10px 80px ;
@@ -85,6 +91,8 @@ body{
     width: 200px;
     list-style: none;
     border-radius: 5%;
+}
+#ícone-novo:hover{
     border: 5px solid white
 }
 .textn-card{
