@@ -1,97 +1,98 @@
-body{
-    background-color: black;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+
+
 }
-#logo-kenzieflix{
-    margin: 25px 765px;
-}
-.Titúlo{
-    color: whitesmoke;
-    margin: 50px 750px;
+
+header {
+    text-align: center;
     font-size: 25px;
+    margin: 10px;
 }
-.container{
-    display: flex;
-    justify-content:center;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin: 100px 400px ; */
-    align-items: center;
-    list-style: none;
-    gap:20px 50px ;
+
+header h3 {
+    margin: 20px;
 }
-.perfil{
-    min-width: 50px;
-    color: gray;
-}
-.text{
-    /* margin: 10px 70px ; */
-    font-size: 18px;
+
+.section-cards {
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
-.text:hover{
-    color: white;
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#ícone-freddie{
-    /* margin: 100px 150px ; */
-    height: 200px;
-    width: 200px;
-    border-radius: 5%;
+
+.container li img {
+    width: 180px;
+    height: 180px;
+}
+
+.name-1 {
+    color: #808080;
+    width: 20%;
+}
+
+.name-2 {
+    color: #808080;
+    width: 20%;
+}
+
+.name-3 {
+    color: #808080;
+    width: 20%;
+}
+
+.add-perfil {
+    color: #808080;
+    width: 20%;
+}
+
+li:hover {
+    color: #ffffff;
+}
+
+img {
+    border-radius: 10px;
     border: 2px solid transparent;
 }
-#ícone-freddie:hover{
-    border: 2px solid white
+
+img:hover {
+    border: 2px solid #ffffff;
 }
 
-
-
-#ícone-vitória{
-    /* margin: 100px 100px ; */
-    height: 200px;
-    width: 200px;
-    border-radius: 5%;
-    border: 2px solid transparent;
-}
-#ícone-vitória:hover{
-    border: 2px solid white
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-
-#ícone-yuri{
-    /* margin: 100px 100px ; */
-    height: 200px;
-    width: 200px;
-    border-radius: 5%;
-    border: 2px solid transparent;
-}
-#ícone-yuri:hover{
-    border: 2px solid white
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#ícone-novo{
-    /* margin: 100px 100px ; */
-    height: 200px;
-    width: 200px;
-    border-radius: 5%;
-    border: 2px solid transparent;
-}
-#ícone-novo:hover{
-    border: 2px solid white
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid gray;
+    margin: 50px;
+    padding: 9px 30px;
+    border-radius: 2px;
+    font-size: 18px;
+
 }
 
-#botão{
-    color: white;
-    background-color: black;   
-    border-color: white;
-    margin: 50px 820px;
-    border-radius: 15%;
-    height: 35px ;
-    width: 150px ;
-    font-size: 15px;
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
-#botão:hover{
-    background-color: white;
-    color: black;
-}
- 
